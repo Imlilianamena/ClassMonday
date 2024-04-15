@@ -217,5 +217,14 @@ header{
     align-items: center;
     padding: 0px 20px;
 }
-
-
+.box__card-primary img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 0px 0px 80px;
+}
+.iconarrow{
+    margin: 0px 0px 0px 130px;
+}
+.iconarrow :hover{
+    cursor: pointer;
+}
