@@ -1,74 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <!-- <script>
-      function miFuncion() {
-        var variableLocal = "Soy una variable local";
-        console.log(variableLocal);
+  </head>
+  <body>
+    <script>
+      //     function miFuncion() {
+      //       var variableLocal = "Soy una variable local";
+      //       console.log(variableLocal);
+      //       }
+      //       miFuncion();
+      //       console.log(variableLocal);
+      //   var globalVar = 10;
+      //   function myFuction(){
+      //       var localVar = 20;
+      //       console.log (globalVar);
+      //       console.log (localVar);
+      //   }
+      //   myFuction();
+      //   console.log (globalVar);
+      //   console.log (localVar);
+
+      //   var num1 = 1;
+      //   var num2 = 2;
+
+      //   let Sumar = num1 + num2;
+      //   console.log(Sumar);
+      //   let Multiplicar =num1 * num2;
+      //   console.log(Multiplicar);
+      //   if (num1>=num2){
+      //       console.log (num1+" es mayor que "+num2);
+      //   }else if (num1==num2){
+      //       console.log (num1+ " es igual que "+num2);
+      //   }else{
+      //       console.log (num2+ " es mayor que "+num1);
+      //   }
+      //   var boolVar = true;
+      //   let resultado = boolVar && (num1 > num2);
+      //   console.log(resultado);
+      //   let ternaryResult = (num1 > num2) ? (num1)+" es mayor que "+(num2) : (num1)+" es menor o igual que "+(num2);
+      //   console.log(ternaryResult)
+
+      //   let person = {
+      //       name: "Liliana",
+      //       age: "18",
+      //       city: "Ocaña",
+      //   };
+      //   console.log ("Nombre", person.nombre);
+      //   let property = "age";
+      //   console.log("Edad",person[property]);
+      //   console.log("Tipo de person", typeof person);
+      //   console.log("Tipo de person.name", typeof person.name);
+      //   console.log("Tipo de variable", typeof x)
+
+      //     const mayor_edad = 18;
+      //     let edad = 18;
+      //     if (edad >= 18) {
+      //       console.log("Eres mayor de edad");
+      //     } else {
+      //       console.log("Eres menor de edad");
+      //     }
+      //     let num1 = 2;
+      //     if (num1 > 1) {
+      //       console.log("Es mayor a 1");
+      //     } else if (num1 == 1) {
+      //       console.log("Es igual a 1");
+      //     } else {
+      //       console.log("Es menor a 1");
+      //     }
+      //     var diaDeLaSemana = "lunes";
+      //     switch (diaDeLaSemana) {
+      //       case "lunes":
+      //         console.log("Hoy es lunes.");
+      //         break;
+      //       case "martes":
+      //         console.log("Hoy es martes.");
+      //         break;
+      //       case "miércoles":
+      //         console.log("Hoy es miércoles.");
+      //         break;
+      //       case "jueves":
+      //         console.log("Hoy es jueves.");
+      //         break;
+      //       case "viernes":
+      //         console.log("Hoy es viernes.");
+      //         break;
+      //       case "sábado":
+      //         console.log("Hoy es sábado.");
+      //         break;
+      //       case "domingo":
+      //         console.log("Hoy es domingo.");
+      //         break;
+      //       default:
+      //         console.log("No es un día válido.");
+      //     }
+      //    for (let i = 1; i <= 5; i++) {
+      //       console.log(i);
+      //     }
+      //     let j = 1;
+      //     while (j <= 5) {
+      //       console.log(j);
+      //       j++;
+      //     }
+      //     let k = 1;
+      //     do {
+      //       console.log(k);
+      //       k++;
+      //     } while (k <= 5); -->
+
+      //     for (let i = 1; i <= 10; i++) {
+      //       console.log(i);
+      //       if (i === 5) {
+      //         console.log("¡Se alcanzó el número 5!");
+      //         break;
+      //       }
+      //     }
+      for (let i = 1; i <= 10; i++) {
+        if (i % 2 === 0) {
+          continue; // Omite la impresión de números pares
         }
-        miFuncion(); // Salida: Soy una variable local
-        console.log(variableLocal); // Error: variableLocal no está definida
-    </script> -->
-   <!-- <script>
-    var globalVar = 10;
-    function myFuction(){
-        var localVar = 20;
-        console.log (globalVar);
-        console.log (localVar);
-    }
-    myFuction();
-    console.log (globalVar);
-    console.log (localVar);
-   </script> -->
-   <!-- <script>
-    var num1 = 1;
-    var num2 = 2;
-
-    let Sumar = num1 + num2;
-    console.log(Sumar);
-    let Multiplicar =num1 * num2;
-    console.log(Multiplicar);
-    if (num1>=num2){
-        console.log (num1+" es mayor que "+num2);
-    }else if (num1==num2){
-        console.log (num1+ " es igual que "+num2);
-    }else{
-        console.log (num2+ " es mayor que "+num1);
-    }
-    var boolVar = true;
-    let resultado = boolVar && (num1 > num2);
-    console.log(resultado);
-    let ternaryResult = (num1 > num2) ? (num1)+" es mayor que "+(num2) : (num1)+" es menor o igual que "+(num2);
-    console.log(ternaryResult)
-   </script> -->
-   <!-- <script>
-    let person = {
-        name: "Liliana",
-        age: "18",
-        city: "Ocaña",
-    };
-    console.log ("Nombre", person.nombre);
-    let property = "age";
-    console.log("Edad",person[property]);
-    console.log("Tipo de person", typeof person);
-    console.log("Tipo de person.name", typeof person.name);
-    console.log("Tipo de variable", typeof x)
-   </script> -->
-   <script>
-    
-   </script>
-
-</body>
+        console.log(i);
+      }
+    </script>
+  </body>
 </html>
 
 Enunciado: Definir una función constructora Car que tenga propiedades make y
 model. Crear un objeto myCar usando Car con valores "Toyota" y "Corolla"
 respectivamente. Usar el operador instanceof para verificar si myCar es una
-instancia de Car. También, crear un array arr y una variable str con valor "Hola", y
-verificar si arr es un array utilizando Array.isArray(arr). Mostrar por consola el tipo
-de arr y el tipo de str utilizando typeof.
+instancia de Car. También, crear un array arr y una variable str con valor
+"Hola", y verificar si arr es un array utilizando Array.isArray(arr). Mostrar
+por consola el tipo de arr y el tipo de str utilizando typeof.
